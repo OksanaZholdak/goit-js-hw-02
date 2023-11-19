@@ -18,11 +18,9 @@ function getShippingCost(country) {
       message = "Shipping to Jamaica will cost 120 credits";
       break;
 
-    case "Sweden":
+    default:
       message = "Sorry, there is no delivery to your country";
-
-    case "Germany":
-      message = "Sorry, there is no delivery to your country";
+      break;
   }
 
   return message;
